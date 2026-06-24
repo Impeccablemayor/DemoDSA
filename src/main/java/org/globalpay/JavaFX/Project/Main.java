@@ -8,10 +8,12 @@ public class Main {
         int nums[] = {5,7,9,11,13};
         int target = 11;
 
-        result = linearSearch(nums, target);
+        int result = linearSearch(nums, target);
+
+        System.out.println(result);
     }
 
     private static int linearSearch(int[] nums, int target) {
-
+        return -1;
     }
 }
