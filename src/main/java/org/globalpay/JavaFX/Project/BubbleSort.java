@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BubbleSort {
 
-    public static void main(String args[]) {
+    static void main(String args[]) {
         int[] nums = {6,5,2,8,9,4};
         int size = nums.length;
         int temp = 0;
