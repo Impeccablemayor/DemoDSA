@@ -27,10 +27,23 @@ public class Stack {
         nums.push(12);
         nums.push(22);
         nums.push(220);
-        nums.push(220);
 
+        System.out.println(nums.pop());
+        System.out.println(nums.peek()); // it just peeks and not delete
         nums.printStack();
 
+    }
+
+    private int pop() {
+        if(top>-1)
+            return arr[top--];
+        else
+            System.out.println("Stack Underflow");
+        return 0;
+    }
+
+    private int peek() {
+        return arr[top];
     }
 
     private void printStack() {
